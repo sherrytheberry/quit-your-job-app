@@ -1,4 +1,4 @@
-const quotes = [
+const badQuotes = [
     "The best time to start was yesterday. You're already too late! Just give up already.", 
     "Quit your job, follow and your passion, and you will never work another day in your life because you'll be unemployed and can't find a job in your passion", 
     "You don’t have to be great to start, but you have to start to be great.",
@@ -36,7 +36,11 @@ const quotes = [
 const quoteText = document.getElementById('quote-text');
 const newQuoteBtn = document.getElementById('new-quote-btn');
 
-newQuoteBtn.addEventListener('click', function() {
-    const randomIndex = Math.floor(Math.random() * quotes.length);
-    quoteText.textContent = quotes[randomIndex];
-});
+// Function to update the quote
+function updateQuote() {
+    // Generate a random index from the badQuotes array
+    const randomIndex = Math.floor(Math.random() * badQuotes.length);
+
+    // Update the text content of the quoteText element
+    quoteText.textContent = badQuotes[randomIndex];
+}
