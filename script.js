@@ -37,9 +37,9 @@ function generateQuote() {
 }
 
 window.onload = function() {
-  document.getElementById('quote').textContent = getRandomQuote();
+  document.getElementById('quote').textContent = generateQuote();
 };
 document.getElementById('newQuoteBtn').addEventListener('click', function() {
-  document.getElementById('quote').textContent = getRandomQuote();
+  document.getElementById('quote').textContent = generateQuote();
 });
 
