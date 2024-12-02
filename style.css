@@ -2,8 +2,8 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #d5ff00;
-  color: #ff00ff;
+  background-color: #fef08a;
+  color: #1a202c;
   text-align: center;
 }
 
@@ -11,14 +11,14 @@ body {
   position: relative;
   margin: 10% auto;
   max-width: 600px;
-  background-color: #ffff00;
+  background-color: #fde047;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 h1 {
-  color: #ff007f;
+  color: #00ffff;
 }
 
 #quote {
@@ -27,7 +27,7 @@ h1 {
 }
 
 #generate-quote {
-  background-color: #6600ff;
+  background-color: #84cc16;
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -38,7 +38,7 @@ h1 {
 }
 
 #generate-quote:hover {
-  background-color: #4b0082;
+  background-color: #65a30d;
 }
 
 .doge {
