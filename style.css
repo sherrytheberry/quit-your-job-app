@@ -1,54 +1,40 @@
-
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #d6f06e;
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-}
-.app-container {
-    text-align: center;
-    padding: 20px;
-    background-color: #ccff00;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    width: 90%;
-    max-width: 600px;
+    margin: 0;
 }
 
-h1 {
-    color: #ed007b;
-    font-size: 24px;
-    margin-bottom: 20px;
+.app {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+    width: 300px;
 }
-.quote-text {
-    font-size: 24px;
-    font-style: italic;
-    color: #cc00ff;
-    margin-bottom: 20px;
+
+#quote {
+    font-size: 1.2em;
+    margin: 20px 0;
 }
 
 button {
     padding: 10px 20px;
-    background-color: #6A1B9A;
+    font-size: 1em;
+    background-color: #007BFF;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 16px;
 }
 
 button:hover {
-    background-color: #00FFFF;
-}
-#bottom-right-img {
-    position: fixed;       
-    bottom: 30px;          
-    right: 30px;          
-    width: 250px;         
-    height: auto;         
-    z-index: 10;          
+    background-color: #0056b3;
 }
 
 #corner-image {
