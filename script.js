@@ -1,7 +1,7 @@
 const badQuotes = [
     "The best time to start was yesterday. You're already too late! Just give up already.", 
     "Quit your job, follow and your passion, and you will never work another day in your life because you'll be unemployed and can't find a job in your passion", 
-    "You don’t have to be great to start, but you have to start to be great.",
+    "You don’t have to be great to start, but you have to start to be great. But you have to be able to start which you clearly can't",
     "Why work 9-5 when you don't have to work at all.",
     "It always seems impossible until it's done but that takes more effort and energy than you have so maybe it is impossible.",
     "Your work is going to fill a large part of your life, so if you quit your work you'll have so much time for more things!",  
