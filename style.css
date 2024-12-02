@@ -54,3 +54,12 @@ button:hover {
     height: auto;         
     z-index: 10;          
 }
+
+#corner-image {
+    position: fixed;
+    bottom: 20px; 
+    left: 20px; 
+    width: 300px; 
+    height: auto;
+    z-index: 10; 
+}
