@@ -31,15 +31,12 @@ const badQuotes = [
     "Your job is the perfect place to practice quitting. Just do it often and without reason!",
     "Life’s too short to waste on jobs you hate. That's why you should waste it on random hobbies instead."
 ];
-function generateQuote() {
-  const randomIndex = Math.floor(Math.random() * badQuotes.length);
-  return badQuotes[randomIndex];
-}
 
-window.onload = function() {
-  document.getElementById('quote').textContent = generateQuote();
-};
-document.getElementById('newQuoteBtn').addEventListener('click', function() {
-  document.getElementById('quote').textContent = generateQuote();
+const quoteDisplay = document.getElementById('quote');
+const generateBtn = document.getElementById('generate-btn');
+
+// Event listener for button
+generateBtn.addEventListener('click', () => {
+    const randomIndex = Math.floor(Math.random() * badQuotes.length);
+    quoteDisplay.textContent = badQuotes[randomIndex];
 });
-
