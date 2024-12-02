@@ -9,8 +9,7 @@ const badQuotes = [
     "Success is not final, failure is not fatal unless its a big fail. You probably have failed pretty badly so might as well stop now.",
     "The only limit to our realization of tomorrow is our doubts of today. But sometimes those doubts are kind of right so you should listen to them and consider them more.",
     "Don't give into copoerate. Quit that job of yours and stop being a sheep.",
-    "Don't give into copoerate. Quit that job of yours and stop being a sheep.",
-    "There's no such thing as the perfect moment. Take the moment and quit your job."
+    "There's no such thing as the perfect moment. Take the moment and quit your job.",
     "If you're not quitting your job every other week, are you even trying?",
     "Why work hard when you can work on your couch curled up in a blanket instead?",
     "Quitting your job is the first step towards becoming an expert at doing nothing.",
