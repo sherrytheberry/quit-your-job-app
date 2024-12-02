@@ -1,49 +1,61 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #fef08a;
-  color: #1a202c;
-  text-align: center;
-}
 
-.container {
-  position: relative;
-  margin: 10% auto;
-  max-width: 600px;
-  background-color: #fde047;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #d6f06e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.app-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #ccff00;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 90%;
+    max-width: 600px;
 }
 
 h1 {
-  color: #00ffff;
+    color: #ed007b;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.quote-text {
+    font-size: 24px;
+    font-style: italic;
+    color: #cc00ff;
+    margin-bottom: 20px;
 }
 
-#quote {
-  font-size: 1.5rem;
-  margin: 20px 0;
+button {
+    padding: 10px 20px;
+    background-color: #6A1B9A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
 }
 
-#generate-quote {
-  background-color: #84cc16;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  font-size: 1rem;
-  cursor: pointer;
-  transition: background-color 0.3s;
+button:hover {
+    background-color: #00FFFF;
+}
+#bottom-right-img {
+    position: fixed;       
+    bottom: 30px;          
+    right: 30px;          
+    width: 250px;         
+    height: auto;         
+    z-index: 10;          
 }
 
-#generate-quote:hover {
-  background-color: #65a30d;
-}
-
-.doge {
-  position: absolute;
-  bottom: -20px;
-  right: -20px;
-  width: 150px;
+#corner-image {
+    position: fixed;
+    bottom: 20px; 
+    left: 20px; 
+    width: 300px; 
+    height: auto;
+    z-index: 10; 
 }
