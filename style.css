@@ -35,7 +35,7 @@ h1 {
 
 button {
     padding: 10px 20px;
-    background-color: #00FFFF;
+    background-color: #6A1B9A;
     color: white;
     border: none;
     border-radius: 5px;
@@ -44,7 +44,7 @@ button {
 }
 
 button:hover {
-    background-color: #6A1B9A;
+    background-color: #00FFFF;
 }
 #bottom-right-img {
     position: fixed;       
