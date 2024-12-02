@@ -50,7 +50,7 @@ button:hover {
     position: fixed;       
     bottom: 30px;          
     right: 30px;          
-    width: 1000px;         
+    width: 500px;         
     height: auto;         
     z-index: 10;          
 }
