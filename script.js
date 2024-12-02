@@ -32,14 +32,7 @@ const badQuotes = [
     "Life’s too short to waste on jobs you hate. That's why you should waste it on random hobbies instead."
 ];
 
-function getRandomQuote() {
+document.getElementById('generate-quote').addEventListener('click', () => {
   const randomIndex = Math.floor(Math.random() * badQuotes.length);
-  return badQuotes[randomIndex];
-}
-
-window.onload = function() {
-  document.getElementById('quote').textContent = getRandomQuote();
-};
-document.getElementById('newQuoteBtn').addEventListener('click', function() {
-  document.getElementById('quote').textContent = getRandomQuote();
+  document.getElementById('quote').textContent = badQuotes[randomIndex];
 });
