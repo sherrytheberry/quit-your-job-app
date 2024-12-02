@@ -36,11 +36,10 @@ const badQuotes = [
 const quoteText = document.getElementById('quote-text');
 const newQuoteBtn = document.getElementById('new-quote-btn');
 
-// Function to update the quote
 function updateQuote() {
-    // Generate a random index from the badQuotes array
     const randomIndex = Math.floor(Math.random() * badQuotes.length);
 
-    // Update the text content of the quoteText element
     quoteText.textContent = badQuotes[randomIndex];
 }
+newQuoteBtn.addEventListener('click', updateQuote);
+
