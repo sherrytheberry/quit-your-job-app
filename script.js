@@ -42,5 +42,6 @@ function updateQuote() {
 }
 
 newQuoteBtn.addEventListener('click', function() {
-    updateQuote();
+    console.log("Button clicked!");  // Debugging 
+    updateQuote(); 
 });
