@@ -31,7 +31,7 @@ const badQuotes = [
     "Your job is the perfect place to practice quitting. Just do it often and without reason!",
     "Life’s too short to waste on jobs you hate. That's why you should waste it on random hobbies instead."
 ];
-function getRandomQuote() {
+function generateQuote() {
   const randomIndex = Math.floor(Math.random() * badQuotes.length);
   return badQuotes[randomIndex];
 }
