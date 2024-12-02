@@ -41,5 +41,3 @@ function updateQuote() {
 
     quoteText.textContent = badQuotes[randomIndex];
 }
-newQuoteBtn.addEventListener('click', updateQuote);
-
